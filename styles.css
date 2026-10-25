@@ -63,7 +63,7 @@ footer a { /* Estiliza apenas os links 'a' que estão dentro do 'footer' */
     border-bottom: 3px dotted rgb(0, 0, 0); /* Adiciona uma borda pontilhada amarela abaixo */
 }
 
-#important_hobby{
+.important_hobbies{
     color: rgb(255, 0, 0);
     font-weight: bold;
 }
