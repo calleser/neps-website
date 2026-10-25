@@ -53,9 +53,19 @@ footer a { /* Estiliza apenas os links 'a' que estão dentro do 'footer' */
     font-weight: bold;
 }
 
+#profile_picture{
+    max-width: 150px;
+    width: auto;
+}
+
 #page-title{
     padding-bottom: 10px; /* Adiciona um espaço abaixo do texto do título */
     border-bottom: 3px dotted rgb(0, 0, 0); /* Adiciona uma borda pontilhada amarela abaixo */
+}
+
+#important_hobby{
+    color: rgb(255, 0, 0);
+    font-weight: bold;
 }
 
 .social_icons{
