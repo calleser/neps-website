@@ -16,7 +16,7 @@ main {
 
 /* Estilizando o cabeçalho da página */
 header {
-    background-color: #8f2533; /* Um azul vibrante para o cabeçalho */
+    background-color: #242121; /* Um azul vibrante para o cabeçalho */
     color: white; /* Texto branco no cabeçalho */
     text-align: center; /* Centraliza o conteúdo do header */
 }
@@ -28,9 +28,17 @@ header h1 {
     color: white; /* A cor é especificada novamente para garantir a sobreposição de estilos mais gerais. Esta é uma prática de especificidade, um conceito que será explorado em mais detalhes futuramente. */
 }
 
+nav a {
+    color: black;
+}
+
+nav a:hover {
+    color: grey;
+}
+
 /* Estilizando os títulos de seção (h2) */
 h2 {
-    color: #580f19; /* Um tom de azul mais escuro para subtítulos */
+    color: #000000; /* Um tom de azul mais escuro para subtítulos */
     font-size: 28px;
     font-weight: normal; /* Títulos h2 já são negrito por padrão, aqui um exemplo de como 'normalizar' se necessário */
 }
@@ -53,7 +61,7 @@ footer a { /* Estiliza apenas os links 'a' que estão dentro do 'footer' */
     font-weight: bold;
 }
 
-#profile_picture{
+#chess-icon{
     max-width: 150px;
     width: auto;
 }
