@@ -45,6 +45,10 @@ a:hover {
     color: grey;
 }
 
+form button:active {
+    background-color: green;
+    color: green;
+}
 /* Estilizando os títulos de seção (h2) */
 h2 {
     color: #000000; /* Um tom de azul mais escuro para subtítulos */
