@@ -6,7 +6,7 @@
         <link rel="stylesheet" href="style.css">
         <title>Chess Fundamentals</title>
     </head>
-    
+
     <body>
         <header>
             <h1 id="page-title">Chess: Content!</h1>
@@ -24,16 +24,34 @@
 
         <main>
             <section id="contact">
-                <h2>Contact links</h2>
+                <h2>Contact form</h2>
 
-                <ul>
-                    <li><a href="https://www.chess.com/member/calleser" rel="noopener">chess.com profile</a></li>
-                    <li></li>
-                </ul>
+                <form action="contact.html" method="GET">
+
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" required></textarea>
+
+                    <button type="submit">Send</button>
+
+                </form>
+
+                <p>Warning: this form does NOT send an actual e-mail and does not save messages, as it's a demonstrative form.</p>
 
             </section>
 
         </main>
+
+        <footer>
+
+            <p>&copy; 2025 calleser. All rights reserved.</p>
+
+        </footer>
 
     </body>
 
