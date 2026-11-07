@@ -45,9 +45,8 @@ a:hover {
     color: grey;
 }
 
-form button:active {
+form button:hover {
     background-color: green;
-    color: green;
 }
 /* Estilizando os títulos de seção (h2) */
 h2 {
